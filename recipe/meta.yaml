@@ -1,18 +1,18 @@
 {% set name = "aiomcache" %}
-{% set version = "0.6.0" %}
+{% set version = "0.8.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b38062efca87f2e6ac3b406bd816ca790900b03fef1c5c38fa61c18212c38825
+  sha256: 3efd96b646a08cc2bb9af1066caff8a122e54a5af1db81a98f3d80be3a0972d8
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
