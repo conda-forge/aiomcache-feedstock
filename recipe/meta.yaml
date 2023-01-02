@@ -10,7 +10,7 @@ source:
   sha256: b38062efca87f2e6ac3b406bd816ca790900b03fef1c5c38fa61c18212c38825
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
@@ -34,4 +34,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - akrherz
     - epruesse
