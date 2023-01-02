@@ -3,7 +3,7 @@ About aiomcache
 
 Home: https://github.com/aio-libs/aiomcache/
 
-Package license: BSD
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiomcache-feedstock/blob/main/LICENSE.txt)
 
