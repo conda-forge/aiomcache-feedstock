@@ -1,5 +1,5 @@
 {% set name = "aiomcache" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ef7dede44ccb4bbe386ff4958c45c4a17e66476c801594489ba45408adb13b7b
+  sha256: 43b220d7f499a32a71871c4f457116eb23460fa216e69c1d32b81e3209e51359
 
 build:
   number: 0
